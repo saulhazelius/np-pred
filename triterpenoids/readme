@@ -1,0 +1,17 @@
+The save_model.py performs the training of the classifier with the 90% of the data. 
+The 10% of the samples corresponding to the test set is predicted. 
+The model is saved as a .dat file. 
+
+1. run the save_model.py script 
+python save_model.py
+
+To predict the test real cases:
+
+2. then copy the .pickle.dat file to the real_data directory
+
+3. change to the real_data dir
+python predict.py
+
+to try new samples:
+
+4. modify the predict.py script with 13C NMR data
