@@ -9,7 +9,7 @@ This is a predictive model based on the XGBoost classifer that outputs the proba
   ## lignans
   ## alkaloids
   ## glycosides
-Here are included the data sets for each family and a python script for the training and model generation.
+Here are included the data sets for each family and python scripts for the training and model generation.
 ### Requeriments:
 ### Python >= 3.5
 ### sklearn == 0.20.1
