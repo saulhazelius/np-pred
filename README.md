@@ -1,6 +1,6 @@
 # np-pred
 Prediction of common natural product families from 13C NMR data.
-This is a predictive model based on the XGBoost classifer that outputs the probability of a certain natural product structure presence. The input data is the 13C NMR shifts. The families included are:
+This is a predictive model based on the XGBoost classifer that outputs the probability of a certain natural product structure presence. The input data are the 13C NMR shifts. The families included are:
   ## sesquiterpenoids
   ## diterpenoids
   ## triterpenoids
@@ -20,4 +20,4 @@ The triterpenoids dir contains a script for training and saving the model 'save_
 ### xgboost == 0.82
 ### pickle
 ### numpy 
-This triterpenoid example can be repeated for the other families following the readme file instructions
+This triterpenoid example can be applied for the other families following the readme file instructions
