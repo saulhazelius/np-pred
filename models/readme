@@ -1,0 +1,21 @@
+The predict_fams.py script predicts the probability that a NMR spectra correspond to a natural product family. The script loads the the .dat files that correspond to the trained XGBoost models.  
+ 
+Each model yields a value indicating the probability of presence (category 1 in the binary classification) of the corresponding family. 
+
+It could be that a NMR gives similar probabilities for different families, as in the glycosides case, where it is common to find NP families joined to a glycoside.    
+
+After running the script the 'report' file shows the probabilities for each family as well as the probability of glycoside presence.
+
+To run:
+
+python predict_fams.py <13C shifts separated by spaces or commas>
+
+Example:
+
+python predict_fams.py 90.3 90 100.0 100.1 85.2
+
+
+Requiriments:
+
+pickle # for loading serialized data
+ 
