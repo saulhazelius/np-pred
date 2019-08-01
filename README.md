@@ -20,4 +20,3 @@ The triterpenoids dir contains a script for training and saving the model 'save_
 ### xgboost == 0.82
 ### pickle
 ### numpy 
-This triterpenoid example can be applied for the other families following the readme file instructions
