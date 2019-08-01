@@ -9,11 +9,15 @@ This is a predictive model based on the XGBoost classifer that outputs the proba
   ## lignans
   ## alkaloids
   ## glycosides
-Here are included the data sets for each family and python scripts for the training and model generation.
-### Requeriments:
+In the 'models' dir are included the 'prediction_fams.py' script and the models for each family.
+### Requeriments for prediction_fams.py:
+### pickle
+The triterpenoids dir contains a script for training and saving the model 'save_model.py', as well as a script 'predict.py' to predict real cases
+### Requirements for save_model.py and predict.py:
 ### Python >= 3.5
 ### sklearn == 0.20.1
 ### imblearn == 0.4.3
 ### xgboost == 0.82
 ### pickle
 ### numpy 
+This triterpenoid example can be repeated for the other families following the readme file instructions
